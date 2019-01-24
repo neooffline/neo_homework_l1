@@ -49,11 +49,7 @@ public class Main {
     }
     //Задание 6
     static boolean testNegative(int value){
-        boolean result = false;
-        if (value < 0) {
-             result= true;
-        }
-        return result;
+        return value<0;
     }
     //Задание 7
     static void printMessage(String name){
